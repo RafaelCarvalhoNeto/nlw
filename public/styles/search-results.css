@@ -70,13 +70,17 @@ main .card p{
     line-height: 26px;
     color: #6C6C80;
 }
+body{
+    background-color: white;
+}
 body::after {
     content: '';
-    background: white;
-    position: fixed;
+    background: #f0f0f5;
+    position: absolute;
     right: 0;
     left: 0;
     bottom: 0;
-    top: 260px;
+    height: 16rem;
+    top: 0;
     z-index: -1;
 }
